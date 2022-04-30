@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstname": "David",
+        "lastname": "Wonodi",
+        "email": "wono1223@yahoo.com",
+        "favoritecolor": "blue",
+        "birthday": "20/5/1995"
+    },
+    "contact2": {
+        "firstname": "Moses",
+        "lastname": "John",
+        "email": "boy1223@yahoo.com",
+        "favoritecolor": "Green",
+        "birthday": "2/7/2000"
+    },
+    "contact3": {
+        "firstname": "Graham",
+        "lastname": "Fight",
+        "email": "love@yahoo.com",
+        "favoritecolor": "red",
+        "birthday": "5/9/2020"
+    }
+}
