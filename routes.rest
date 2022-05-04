@@ -6,11 +6,35 @@ GET http://localhost:3000/contacts
 GET http://localhost:3000/contacts/626d4fee6c541ee99a3508ad
 
 ###
-GET http://localhost:3000/contacts/626d4fee6c541ee99a3508ad
+POST http://localhost:3000/contacts/ HTTP/1.1
+Content-Type: application/json
 
+{
+    "firstName": "jjc",
+    "lastName": "period",
+    "email": "wono1223@yahoo.com",
+    "favoriteColor": "green",
+    "birthday": "20/5/1995"
+
+    }
 
 ###
-GET http://localhost:3000/contacts/626d4fee6c541ee99a3508af
+PUT  http://localhost:3000/contacts/627293a01e9c64aa53c55e8f HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "gLORY",
+    "lastName": "period",
+    "email": "wono1223@yahoo.com",
+    "favoriteColor": "green",
+    "birthday": "20/5/1995"
+
+    }
+627292b3db0b7e6f7a9b222f
+###
+DELETE http://localhost:3000/contacts/627292b3db0b7e6f7a9b222f HTTP/1.1
+
+
 
 ###
 //Deployment
