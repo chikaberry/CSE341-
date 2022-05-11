@@ -30,7 +30,7 @@ Content-Type: application/json
     "birthday": "20/5/1995"
 
     }
-627292b3db0b7e6f7a9b222f
+
 ###
 DELETE http://localhost:3000/contacts/627292b3db0b7e6f7a9b222f HTTP/1.1
 
